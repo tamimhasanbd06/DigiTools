@@ -5,6 +5,7 @@ import PlaneCards from './Components/PlaneCards'
 import Price from './Components/Price'
 import ProductCardSection from './Components/ProductCardSection'
 import StaticCardSection from './Components/StaticCardSection'
+import Transform from './Components/Transform'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <ProductCardSection/>
       <StaticCardSection/>
       <PlaneCards/>
+      <Transform/>
     </>
   )
 }

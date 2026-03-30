@@ -1,6 +1,6 @@
 import React from 'react';
 
-const productCardSection = () => {
+const ProductCardSection = () => {
     return (
                      <div className='w-300 mx-auto'>
 
@@ -16,8 +16,8 @@ const productCardSection = () => {
                 </p>
 
                 <div className='space-x-5'>
-                    <button className='bg-[#4f39f6] text-white px-4 py-2 rounded-full' >Products</button>
-                    <button className=' text-black px-4 py-2 rounded-full' >Cart (2)</button>
+                    <button className='bg-[#4f39f6]  text-white px-4 py-2 rounded-full cursor-pointer' >Products</button>
+                    <button className=' text-black  px-4 py-2 rounded-full cursor-pointer' >Cart (2)</button>
                 </div>
             </div>
 
@@ -35,4 +35,4 @@ const productCardSection = () => {
     );
 };
 
-export default productCardSection;
+export default ProductCardSection;

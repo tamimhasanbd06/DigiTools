@@ -27,11 +27,11 @@ const Banner = () => {
 
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-          <button className="bg-purple-600 text-white px-5 py-2 rounded-full text-sm hover:bg-purple-700 transition">
+          <button className="bg-purple-600 cursor-pointer text-white px-5 py-2 rounded-full text-sm hover:bg-purple-700 transition">
             Explore Products
           </button>
 
-          <button className="border border-purple-600 text-purple-600 px-5 py-2 rounded-full text-sm hover:bg-purple-300 transition flex items-center gap-1 justify-center">
+          <button className="border border-purple-600 cursor-pointer text-purple-600 px-5 py-2 rounded-full text-sm hover:bg-purple-300 transition flex items-center gap-1 justify-center">
             <CiPlay1 /> Watch Demo
           </button>
         </div>

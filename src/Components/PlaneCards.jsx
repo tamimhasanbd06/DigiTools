@@ -20,7 +20,8 @@ const PlaneCards = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 gap-6 md:gap-8">
 
                     {/* Card */}
-                    <div className="bg-white border border-gray-200 rounded-3xl p-6 md:p-8 flex flex-col h-full shadow-sm transition-all duration-300 hover:shadow-xl hover:-translate-y-2 hover:scale-[1.02]">
+                    <div className="bg-white border border-gray-200 rounded-3xl p-6 md:p-8 flex flex-col h-full shadow-sm 
+                    transition-all duration-300 hover:shadow-xl hover:-translate-y-2 hover:scale-[1.02]">
 
                         <h3 className="text-xl md:text-2xl font-semibold text-gray-900">Starter</h3>
                         <p className="text-gray-500 mt-1 text-sm md:text-base">Perfect for getting started</p>
@@ -45,15 +46,18 @@ const PlaneCards = () => {
                             </li>
                         </ul>
 
-                        <button className="w-full bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 md:py-4 rounded-xl transition-all duration-300 active:scale-95">
+                        <button className="w-full bg-purple-600 hover:bg-purple-700 text-white cursor-pointer font-semibold 
+                        py-3 md:py-4 rounded-xl transition-all duration-300 active:scale-95">
                             Get Started Free
                         </button>
                     </div>
 
                     {/* Pro Card */}
-                    <div className="bg-[#4f39f6] text-white rounded-3xl p-6 md:p-8 flex flex-col h-full shadow-xl relative transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+                    <div className="bg-[#4f39f6] text-white rounded-3xl p-6 md:p-8 flex flex-col h-full shadow-xl relative t
+                    ransition-all duration-300 hover:scale-105 hover:shadow-2xl">
 
-                        <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-yellow-400 text-yellow-900 text-xs md:text-sm font-bold px-4 py-1 rounded-full">
+                        <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-yellow-400 text-yellow-900 text-xs 
+                        md:text-sm font-bold px-4 py-1 rounded-full">
                             Most Popular
                         </div>
 
@@ -87,13 +91,15 @@ const PlaneCards = () => {
                             </li>
                         </ul>
 
-                        <button className="w-full bg-white text-purple-700 hover:bg-purple-100 font-semibold py-3 md:py-4 rounded-xl transition-all duration-300 active:scale-95">
+                        <button className="w-full bg-white  text-purple-700 hover:bg-purple-100 font-semibold py-3 md:py-4 cursor-pointer 
+                        rounded-xl transition-all duration-300 active:scale-95">
                             Start Pro Trial
                         </button>
                     </div>
 
                     {/* Enterprise Card */}
-                    <div className="bg-white border border-gray-200 rounded-3xl p-6 md:p-8 flex flex-col h-full shadow-sm transition-all duration-300 hover:shadow-xl hover:-translate-y-2 hover:scale-[1.02]">
+                    <div className="bg-white border border-gray-200 rounded-3xl p-6 md:p-8 flex flex-col h-full shadow-sm transition-all 
+                    duration-300 hover:shadow-xl hover:-translate-y-2 hover:scale-[1.02]">
 
                         <h3 className="text-xl md:text-2xl font-semibold text-gray-900">Enterprise</h3>
                         <p className="text-gray-500 mt-1 text-sm md:text-base">For teams and businesses</p>
@@ -124,7 +130,8 @@ const PlaneCards = () => {
                                 <IoCheckmarkDone /> Custom branding
                             </li>
                         </ul>
-                        <button className="w-full bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 md:py-4 rounded-xl transition-all duration-300 active:scale-95">
+                        <button className="w-full bg-purple-600 hover:bg-purple-700 text-white font-semibold cursor-pointer py-3 md:py-4
+                         rounded-xl transition-all duration-300 active:scale-95">
                             Contact Sales
                         </button>
                     </div>

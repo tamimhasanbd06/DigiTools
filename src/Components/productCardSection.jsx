@@ -1,8 +1,8 @@
 import React from 'react';
 
-const PurchaseCardSection = () => {
+const productCardSection = () => {
     return (
-               <div className='w-300 mx-auto'>
+                     <div className='w-300 mx-auto'>
 
 
 
@@ -35,4 +35,4 @@ const PurchaseCardSection = () => {
     );
 };
 
-export default PurchaseCardSection;
+export default productCardSection;

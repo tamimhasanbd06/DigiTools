@@ -2,17 +2,17 @@ import './App.css'
 import Banner from './Components/Banner'
 import Navbar from './Components/Navbar'
 import Price from './Components/Price'
-import PurchaseCardSection from './Components/PurchaseCardSection'
+import ProductCardSection from './Components/ProductCardSection'
+import StaticCardSection from './Components/StaticCardSection'
 
 function App() {
-
-  
   return (
     <>
-     <Navbar/>
-     <Banner/>
-     <Price/>
-     <PurchaseCardSection/>
+      <Navbar/>
+      <Banner/>
+      <Price/>
+      <ProductCardSection/>
+      <StaticCardSection/>
     </>
   )
 }

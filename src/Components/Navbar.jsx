@@ -58,9 +58,9 @@ const Navbar = ({ cartItems }) => {
                 d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2 2h13m0 0a2 2 0 11-4 0 2 2 0 014 0z" />
             </svg>
 
-            <span className="absolute -top-2 -right-2 bg-purple-600 text-white text-[10px] px-1.5 rounded-full">
-              {cartItems.length}
-            </span>
+        <span className={`absolute -top-2 -right-2 bg-purple-600 text-white text-[10px] px-1.5 rounded-full ${cartItems.length === 0 ? 'hidden' : ''}`}>
+  {cartItems.length}
+</span>
           </div>
 
           {/* Login */}

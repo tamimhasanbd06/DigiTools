@@ -8,6 +8,8 @@ import Price from './Components/Price';
 import ProductCardSection from './Components/ProductCardSection';
 import StaticCardSection from './Components/StaticCardSection';
 import Transform from './Components/Transform';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const fetchProduct = async () => {
   const res = await fetch("/data.json");
@@ -18,7 +20,6 @@ function App() {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  // 🔥 GLOBAL CART STATE
   const [cartItems, setCartItems] = useState([]);
 
   useEffect(() => {
@@ -33,7 +34,6 @@ function App() {
       });
   }, []);
 
-  // Add to Cart
   const addToCart = (product) => {
     const exists = cartItems.find((item) => item.id === product.id);
     if (!exists) {
@@ -41,7 +41,6 @@ function App() {
     }
   };
 
-  // Remove
   const removeFromCart = (id) => {
     setCartItems(prev => prev.filter(item => item.id !== id));
   };
@@ -62,6 +61,7 @@ function App() {
           cartItems={cartItems}
           addToCart={addToCart}
           removeFromCart={removeFromCart}
+          setCartItems={setCartItems}
         />
       )}
 
@@ -69,6 +69,12 @@ function App() {
       <PlaneCards />
       <Transform />
       <Footer />
+
+      {/* Toast Container */}
+      <ToastContainer
+        position="top-right"
+        autoClose={2000}
+      />
     </>
   );
 }

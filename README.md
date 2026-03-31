@@ -1,16 +1,34 @@
-# React + Vite
+# 🚀 DigiTools
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Description
+DigiTools is an AI-powered platform where users can purchase subscriptions for various AI tools. These tools help increase productivity and improve workflow efficiency.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Technologies Used
+- React  
+- Tailwind CSS  
+- React Icons  
+- React Toastify  
+- DaisyUI  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
+- 🚀 AI Subscriptions: Users can purchase subscriptions for different AI tools, helping them boost productivity and work efficiency.  
+- 🌐 Global Access: DigiTools can be accessed from anywhere, on any device, ensuring a smooth and flexible user experience.  
+- 🔒 Secure Data Management: All user data and subscription information are securely stored and protected with modern security practices.  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📷 Preview (Optional)
+![alt text](image.png)
+
+---
+
+## 📦 Installation (Optional)
+```bash
+git clone https://github.com/your-username/your-project.git
+cd your-project
+npm install
+npm start

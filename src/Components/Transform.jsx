@@ -6,29 +6,30 @@ const Transform = () => {
             <div className="max-w-4xl mx-auto flex flex-col items-center gap-6">
                 
                 {/* Main Heading */}
-                <h2 className="text-4xl md:text-5xl font-bold tracking-tight">
+                <h2 className="text-4xl min-[320px]:max-[375px]:text-2xl md:text-5xl font-bold tracking-tight">
                     Ready To Transform Your Workflow?
                 </h2>
 
                 {/* Subtext */}
-                <p className="text-lg opacity-90 max-w-2xl leading-relaxed">
+                <p className="text-lg min-[320px]:max-[375px]:text-sm opacity-90 max-w-2xl leading-relaxed">
                     Join thousands of professionals who are already using Digitools to work smarter.
                     <br className="hidden md:block" /> Start your free trial today.
                 </p>
 
                 {/* Button Group */}
                 <div className="flex flex-wrap justify-center gap-4 mt-4">
-                    <button className="bg-white cursor-pointer text-[#7026e8] font-semibold py-3 px-8 rounded-full hover:bg-opacity-90 transition-all">
+                    <button className="bg-white cursor-pointer text-[#7026e8] font-semibold py-3 px-8 min-[320px]:max-[375px]:py-2 min-[320px]:max-[375px]:px-5 min-[320px]:max-[375px]:text-sm rounded-full hover:bg-opacity-90 transition-all">
                         Explore Products
                     </button>
-                    <button className="border-2 cursor-pointer border-white border-opacity-50 text-white font-semibold py-3 px-8 rounded-full
+                    <button className="border-2 cursor-pointer border-white border-opacity-50 text-white font-semibold py-3 px-8 
+                     min-[320px]:max-[375px]:py-2 min-[320px]:max-[375px]:px-5 min-[320px]:max-[375px]:text-sm rounded-full
                      hover:bg-white hover:text-[#7026e8] transition-all">
                         View Pricing
                     </button>
                 </div>
 
                 {/* Footer Note */}
-                <p className="text-sm opacity-80 mt-2">
+                <p className="text-sm min-[320px]:max-[375px]:text-xs opacity-80 mt-2">
                     14-day free trial • No credit card required • Cancel anytime
                 </p>
                 

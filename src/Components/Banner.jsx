@@ -15,14 +15,13 @@ const Banner = () => {
         </span>
 
         {/* Heading */}
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 leading-tight">
+        <h1 className="text-3xl sm:text-4xl md:text-2xl font-bold text-gray-800 leading-tight">
           Supercharge Your <br className="hidden md:block" /><span className='text-[#5039FD]'> Digital Workflow</span>
         </h1>
 
         {/* Description */}
-        <p className="text-gray-500 text-sm sm:text-base md:text-[15px] leading-relaxed max-w-xl mx-auto md:mx-0">
-          Access premium AI tools, design assets, templates, and productivity
-          software — all in one place. Start creating faster today.
+        <p className="text-gray-500 text-xs sm:text-xxs md:text-[13px] leading-relaxed max-w-xl mx-auto md:mx-0">
+          Access premium AI tools, design assets, templates, and productivity software — all in one place. Start creating faster today.
         </p>
 
         {/* Buttons */}
@@ -40,10 +39,10 @@ const Banner = () => {
 
       {/* RIGHT: Image */}
       <div className="w-full md:w-1/2 flex justify-center">
-        <img 
-          src={banner} 
-          alt="banner" 
-          className="w-full max-w-sm sm:max-w-md md:max-w-full object-contain" 
+        <img
+          src={banner}
+          alt="banner"
+          className="w-full max-w-sm sm:max-w-md md:max-w-full object-contain"
         />
       </div>
 

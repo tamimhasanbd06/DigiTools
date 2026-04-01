@@ -19,13 +19,22 @@ const Navbar = ({ cartItems }) => {
               </svg>
             </label>
 
-            <ul className="menu menu-sm cursor-pointer dropdown-content mt-3 p-3 shadow bg-white rounded-box w-56">
+            <ul className="menu menu-sm cursor-pointer dropdown-content mt-3 p-3 shadow bg-white rounded-box w-56 space-y-1">
               <li><a>Products</a></li>
               <li><a>Features</a></li>
               <li><a>Pricing</a></li>
               <li><a>Testimonials</a></li>
               <li><a>FAQ</a></li>
-              <li><a className="hover:text-purple-600"><button>Login</button></a></li>
+              <li><button className="bg-purple-600 text-white text-center flex justify-center items-center rounded-lg px-3 py-2 text-sm font-semibold hover:bg-purple-700 transition w-full">
+                Login
+              </button>
+              </li>
+
+              <li><button className="bg-purple-600 text-white text-center flex justify-center items-center rounded-lg px-3 py-2 text-sm font-semibold hover:bg-purple-700 transition w-full">
+                Get Started
+              </button>
+              </li>
+
             </ul>
           </div>
 
@@ -58,18 +67,18 @@ const Navbar = ({ cartItems }) => {
                 d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2 2h13m0 0a2 2 0 11-4 0 2 2 0 014 0z" />
             </svg>
 
-        <span className={`absolute -top-2 -right-2 bg-purple-600 text-white text-[10px] px-1.5 rounded-full ${cartItems.length === 0 ? 'hidden' : ''}`}>
-  {cartItems.length}
-</span>
+            <span className={`absolute -top-2 -right-2 bg-purple-600 text-white text-[10px] px-1.5 rounded-full ${cartItems.length === 0 ? 'hidden' : ''}`}>
+              {cartItems.length}
+            </span>
           </div>
 
-          {/* Login */}
-          <button className="hidden sm:block text-sm text-gray-700 cursor-pointer hover:text-purple-600 font-semibold">
+          {/* Login (Desktop Only) */}
+          <button className="hidden md:block text-sm text-gray-700 cursor-pointer hover:text-purple-600 font-semibold">
             Login
           </button>
 
-          {/* CTA */}
-          <button className="bg-purple-600 text-white text-sm px-4 py-2 rounded-full cursor-pointer hover:bg-purple-700 transition font-semibold whitespace-nowrap">
+          {/* CTA (Desktop Only) */}
+          <button className="hidden md:block bg-purple-600 text-white text-sm px-4 py-2 rounded-full cursor-pointer hover:bg-purple-700 transition font-semibold whitespace-nowrap">
             Get Started
           </button>
 
